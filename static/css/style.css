@@ -64,6 +64,10 @@ body {
   }
 }
 @media (min-width: 1000px) {
+  header{
+    position: fixed;
+    top: 0;
+  }
   .large-screen {
     padding: 100px;
   }
@@ -306,4 +310,145 @@ body {
   .signature:active {
     color: black;
   }
-}/*# sourceMappingURL=style.css.map */
+}
+
+@media(max-width: 1000px){
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+  }
+  .logo{
+    display: none;
+  }
+  body{
+    overflow-x: hidden;
+    background-color: white;
+  }
+
+  .BFounder img{
+    width: 40px;
+  }
+
+  .BFounder{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    border-bottom: solid;
+    padding: 20px;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .signature{
+    display: none;
+  }
+
+  #links{
+    background-color: black;
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mediaPage{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mediaPage li{
+    list-style: none;
+    padding: 20px;
+  }
+
+  .mediaPage li a{
+    color: whitesmoke;
+  }
+
+  .logo{
+    display: none;
+  }
+  header{
+    box-shadow: 0 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .large-screen{
+    display: none;
+  }
+  #aboutUs{
+    position: relative;
+  }
+
+  .description{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgba(0, 0, 0, 0.564);
+  }
+  
+  .quotes{
+    margin-top: 50px;
+    height: 100vh;
+    margin-left: 50px;
+    max-width: 300px;
+    color: whitesmoke;
+  }
+
+  #services{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .services{
+    padding: 20px;
+  }
+
+  .textOfservice{
+    text-align: center;
+    margin-top: 50px;
+  }
+
+
+
+  .products img{
+    width: 150px;
+    height: 150px;
+    border-radius: 300rem;
+  }
+
+  
+  
+
+  .services{
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 30px;
+  }
+  
+  .products{
+    max-width: 200px;
+    font-size: 15px;
+  }
+
+  #founders{
+    padding: 20px;
+  }
+
+  .imagesOfFounders{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
