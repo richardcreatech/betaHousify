@@ -20,30 +20,31 @@
             <p class="descriptiveText">Share an insight!</p>
         </div>
 
-        <form class="form" action="site.html" method="get">
+        <form class="form" action="" method="get">
             <h1 class="signText">SignUp</h1>
             <div class="formText">
-                <label for="firstName"><input class="Coffee" type="text" placeholder="First Name" required></label>
-                <label for="lastName"><input class="Coffee" type="text" placeholder="Last Name"></label>
-                <label for="Email"><input class="Coffee" type="email" placeholder="Email address" required></label>
+                <label for="firstName"><input class="Coffee" id="firstName" type="text" placeholder="First Name" required></label>
+                <label for="lastName"><input class="Coffee" id="lastName" type="text" placeholder="Last Name"></label>
+                <label for="Email"><input class="Coffee" id="email" type="email" placeholder="Email address" required></label>
                 <label for="password"><input placeholder="Password" class="Coffee" type="password" min="10" max="12" required></label>
                 <label for="terms">
                     <input type="checkbox" name="" id="">Accept Terms
                 </label>
                 <label for="submitted">
-                    <input type="submit" value="Join us">
+                    <input type="submit"  value="Join us">
                 </label>
                 <div class="between"></div>
                 <label for="googleSubmit">
-                    <button class="sided" type="submit" class="googleIcon"><i class="fa-brands fa-google"></i><p>Sign in with google</p> 
-                </button>
+                    
                 </label>
 
             </div>
         </form>
     </main>
     </section>
-    
+    <button class="sided" id="register"  class="googleIcon"><i class="fa-brands fa-google"></i><p>Sign in with google</p> 
+    </button>
 </body>
+<script src="app.js"></script>
 <script src="https://kit.fontawesome.com/65d66cd159.js" crossorigin="anonymous"></script>
 </html>
